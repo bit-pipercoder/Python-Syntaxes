@@ -18,7 +18,7 @@ print("What is your name? " + name) # prints What is your name and Bernard to th
 # for my python codepad this doesnt work
 example = input("Bernard") # it allows you to type in the output that is what range() is for
 
-print(len(name)) # prints the length of the name variable, so it can be either 1 or 7 due to bernard beinf 7 characters or 1 word
+print(len(name)) # prints the length of the name variable, so it can be either 1 or 7 due to bernard being 7 characters or 1 word
 test = {
     "Test"
 } # MUST be 4 spaces after "Test" or else a indentation error comes up and this is called "Dictionary" contains multiple text in another text
@@ -27,26 +27,22 @@ Nerds = "Your long paragraph here" # then you can concatenate nerds to another l
 
 print("Your print thing here on first " + Nerds)
 
-# LUAU SYNTAXES
-if # checks if a thing exists usually paired with then
-then # continues on with the script WHEN the if statement is done
--- test # comment
-print("") # print, you already got this before if you read the print on top
-print() # prints a thing in the explorer, OR prints a variable.
-for i, v in ipairs(yourTableName) do # reads the entire table
-print(v) # prints the value inside i, v (v) which prints the table instead of a table identifier
-end # required for the for statement
-while true do # not recommended without a task.wait()
-local variableName = yourThing # creates a variable named variableName
-button.MouseButton1Click:Connect(function() # detects a click on the left click, tap for mobile
-button.MouseButton2Click:Connect(function() # only available on pc, and also it goes up to MouseButton3Click, and it detects the right click
-button.MouseButton3Click:Connect(function() # scroll click
-tool.Activated:Connect(function() # detects when you click while holding a tool
-part.Touched:Connect(function() # detects when you walk on a part
-
-# you need to set the button to your button variable you created for the script parent
-# you need to set the tool to your tool variable you created for the script parent
-# you need to set the part to your part variable you created for the script parent
-
-
+import # imports something, you can use this to import libraries and built in 
 # thats all i know for python, streaming my python journey on youtube.com
+
+
+# PROPER ARRANGEMENT
+print() # prints a variable or dictionary, etc.
+print("") # prints something to the output
+range(-yourNumber, yourNumber) # makes a range between yournumber to yournumber
+variableName = yourVariableThing # creats a variable containing something
+import # you can use this to import libraries for websites use django and flask for gui use tkinter
+input("") # checks if the person typed something in the output
+example = { # dictionary so you dont make variables like variable1, 2 etc.
+    "Example" # must be 4 spaces in the back of the example or else it will give a indentation error
+    "Test" # second thing
+} # closes the dictionary
++ # concatenation use it to concatenate a variable, smth short for concatenate is concat
+len(something) # prints the length of something mostly used in print("") or print()
+
+
