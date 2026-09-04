@@ -8,7 +8,7 @@ for i, v in ipairs(yourTableName) do -- reads the entire table
 end -- required for if, for etc.
 end) -- required to close a line, usually on :Connect(function()'s.
 :Connect(function() -- detects something
-while true do -- not recommended without a task.wait()
+while true do -- not recommended without a task.wait() (it loops anything under it with a end under the anything under while true do
 local variableName = yourThing -- creates a variable named variableName
 button.MouseButton1Click:Connect(function() -- detects a click on the left click, tap for mobile
 button.MouseButton2Click:Connect(function() -- only available on pc, and also it goes up to MouseButton3Click, and it detects the right click
