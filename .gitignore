@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python build files
+*.egg-info/
+dist/
+build/
+
+# Python test/cache files
+.pytest_cache/
+.mypy_cache/
