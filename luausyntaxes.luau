@@ -14,7 +14,9 @@ button.MouseButton1Click:Connect(function() -- detects a click on the left click
 button.MouseButton2Click:Connect(function() -- only available on pc, and also it goes up to MouseButton3Click, and it detects the right click
 button.MouseButton3Click:Connect(function() -- scroll click
 tool.Activated:Connect(function() -- detects when you click while holding a tool
-part.Touched:Connect(function() -- detects when you walk on a part
+part.Touched:Connect(function(hit) -- detects when you walk on a part
+:WaitForChild() --[[ waits for a child of the name you put behind the : normally you need to make this as a reference, but you can go down the hierarchy to save lines.
+:FindFirstChild() -- basically the same as WaitForChild, but, if it cant find the object on the first find, it returns nil
 
 -- you need to set the button to your button variable you created for the script parent
 -- you need to set the tool to your tool variable you created for the script parent
